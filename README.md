@@ -1,48 +1,79 @@
-# 🌽 Corrida do Milho 2026 — Landing Page
+# 🌽 Corrida do Milho 2026 — Landing Page Mobile-First
 
-Case de portfólio: landing page para um evento de corrida de rua em Patos de Minas, MG. O projeto foi desenvolvido com foco em **conversão mobile** — onde a maioria dos acessos de eventos esportivos acontece.
+Landing page desenvolvida como case de portfólio para um evento de corrida de rua em Patos de Minas, MG, com foco total em **conversão em dispositivos móveis**.
 
-🔗 **[Ver demo ao vivo](https://corrida-do-milho-2026.vercel.app)**
+🔗 **Demo ao vivo:** https://corrida-do-milho-2026.vercel.app
+
+---
+
+## 🎯 Problema
+
+Eventos locais frequentemente enfrentam baixa conversão em inscrições por utilizarem páginas pouco otimizadas para mobile — com navegação confusa, excesso de informação e CTAs pouco visíveis.
+
+---
+
+## 💡 Solução
+
+Desenvolvimento de uma landing page **mobile-first**, projetada para:
+
+* Reduzir fricção na navegação
+* Facilitar leitura rápida (escaneabilidade)
+* Destacar o CTA em todos os momentos
+* Guiar o usuário até a ação principal: **se inscrever no evento**
 
 ---
 
 ## 📱 Sobre o projeto
 
-A proposta foi criar uma landing page moderna e orientada à conversão, pensando no usuário que acessa pelo celular, muitas vezes em movimento. Cada decisão de layout foi feita para reduzir fricção e direcionar o clique para a inscrição.
+O layout foi criado a partir de um wireframe próprio e evoluído para uma interface moderna, responsiva e orientada à conversão.
 
-O desenvolvimento partiu de um wireframe próprio e evoluiu para uma versão **mobile-first** completa, sem uso de frameworks CSS ou JavaScript externos.
-
----
-
-## ✨ Destaques técnicos
-
-- **Mobile-first** — estrutura pensada de 320px para cima, com breakpoints em 600px e 960px
-- **Sticky CTA** — botão "Garantir Vaga" fixado no rodapé da tela no mobile, sempre visível durante a rolagem
-- **Tipografia fluida** — uso de `clamp()` em todas as fontes e espaçamentos para adaptação suave entre tamanhos de tela
-- **Hierarquia visual forte** — "MILHO" em escala maior que o restante do título, criando um ponto focal imediato
-- **Zero dependências** — HTML e CSS puros, sem frameworks, sem bibliotecas JS
-- **Performance** — imagens com `loading="lazy"`, fontes com `preconnect`, CSS otimizado
+A experiência foi pensada para o contexto real do usuário: acesso via celular, muitas vezes com pressa e atenção limitada.
 
 ---
 
-## 🎨 Decisões de design
+## ✨ Destaques
 
-### Paleta — Verde limão `#CCFF00` sobre fundo escuro
+* **Mobile-first real** — projetado a partir de 320px, não apenas adaptado
+* **Sticky CTA** — botão fixo no mobile, sempre acessível durante a rolagem
+* **Tipografia fluida** — uso de `clamp()` para escalabilidade perfeita
+* **Hierarquia visual forte** — destaque estratégico para palavras-chave
+* **Escaneabilidade otimizada** — conteúdo direto e de rápida absorção
+* **Zero dependências** — HTML e CSS puros, foco em performance
+* **Carregamento otimizado** — uso de `lazy loading` e boas práticas
 
-O verde limão foi escolhido por carregar múltiplas referências ao mesmo tempo: remete à energia do esporte, à identidade visual do milho (produto símbolo de Patos de Minas) e ao movimento — sem perder a modernidade. Sobre fundo escuro (`#0A0A0A`), o contraste é máximo e o resultado lembra a estética de marcas fitness e eventos de corrida de alto nível como a Adidas Running e a Nike Run Club.
+---
 
-### Tipografia — Righteous + Barlow Condensed
+## 🎨 Decisões de Design
 
-A **Righteous** foi escolhida para os títulos por ter uma personalidade forte e geométrica que comunica velocidade e impacto — sem precisar gritar. É uma fonte que chama atenção em frações de segundo, essencial para uma landing page onde o usuário decide em menos de 3 segundos se vai continuar rolando. A **Barlow Condensed** complementa com legibilidade e eficiência em espaços pequenos, ideal para labels, badges e informações secundárias no mobile.
+### Paleta de cores
+
+Verde limão `#CCFF00` sobre fundo escuro `#0A0A0A`.
+
+A escolha combina:
+
+* Energia e movimento (esporte)
+* Identidade temática (milho)
+* Estética moderna inspirada em marcas fitness
+
+O alto contraste melhora a leitura e destaca elementos interativos.
+
+---
+
+### Tipografia
+
+* **Righteous** → títulos (impacto e personalidade)
+* **Barlow Condensed** → textos (legibilidade e eficiência)
+
+A combinação equilibra **identidade visual forte** com **clareza na leitura**, especialmente no mobile.
 
 ---
 
 ## 🛠 Tecnologias
 
-- HTML5 semântico
-- CSS3 (Flexbox, Grid, Custom Properties, clamp())
-- Google Fonts (Righteous, Barlow Condensed, Barlow)
-- Deploy via Vercel
+* HTML5 semântico
+* CSS3 (Flexbox, Grid, Custom Properties, `clamp()`)
+* Google Fonts
+* Deploy via Vercel
 
 ---
 
@@ -50,30 +81,41 @@ A **Righteous** foi escolhida para os títulos por ter uma personalidade forte e
 
 ```
 corrida-do-milho-2026/
-├── index.html       # Página principal (tudo em um único arquivo)
+├── index.html
 └── README.md
 ```
 
+Projeto simples, direto e sem necessidade de build.
+
 ---
 
-## 🚀 Como rodar localmente
+## 🚀 Execução local
 
 ```bash
-# Clone o repositório
 git clone https://github.com/YuriFDC/corrida-do-milho-2026.git
-
-# Abra o arquivo no navegador
 open index.html
 ```
 
-Não há dependências ou build step — basta abrir o arquivo.
+---
+
+## 📌 Conclusão
+
+Este projeto demonstra a aplicação prática de conceitos de **UX, UI e front-end** com foco em resultado.
+
+Mais do que um layout visualmente atraente, a proposta foi criar uma interface que:
+
+* guia o usuário
+* reduz fricção
+* e incentiva ação
+
+Transformando design em **conversão real**.
 
 ---
 
-## 👤 Autor
+## Autor
 
-Feito por **[YuriFDC](https://github.com/YuriFDC)**
+Desenvolvido por Yuri Fernandes (Castro Design)
+Entre em contato via [LinkedIn](https://www.linkedin.com/in/yuricastro-design/) ou [Instagram](https://www.instagram.com/yuricastro.design/).
+🔗 https://github.com/YuriFDC
 
 ---
-
-*Projeto fictício desenvolvido para fins de portfólio.*
